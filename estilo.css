@@ -1,0 +1,24 @@
+:root{
+--colorBlanco:white;
+--colorNegro:black;
+}
+
+body{
+    line-height: 1.5;
+    padding: 30px;
+    background-color: var(--colorBlanco);
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.modoOscuro{
+    background-color:var(--colorNegro) ;
+    color: var(--colorBlanco);
+}
+
+button{
+    font-weight: 400;
+    padding: 10px 40px;
+}
